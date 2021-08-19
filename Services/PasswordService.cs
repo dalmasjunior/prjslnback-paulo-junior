@@ -8,7 +8,7 @@ namespace prjslnback_paulo_junior.Services
 {
     public static class PasswordService
     {
-        public static bool ValidadePassword(string pass)
+        public static bool ValidatePassword(string pass)
         {
             return ValidateSizeUpperLowerSpecialChar(pass) && !ValidateRepeatedInSequenceChars(pass);
         }
@@ -26,7 +26,7 @@ namespace prjslnback_paulo_junior.Services
                 chars[i] = validChars[random.Next(0, validChars.Length)];  
             }  
             var newPassword = new string(chars);
-            return ValidadePassword(newPassword) ? newPassword : GenerateRandomPassword();
+            return ValidatePassword(newPassword) ? newPassword : GenerateRandomPassword();
         }
 
         private static bool ValidateSizeUpperLowerSpecialChar(string pass) 

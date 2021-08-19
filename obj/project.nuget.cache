@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8IlW9R8YzVuB4f8ZGHx6JMXzVg10Bt63KKlHTjtzk0U+BvUMwp4bnfjmm/SuwnjiC1jgxaf8XL1VYu2gmoUsg==",
+  "dgSpecHash": "xnuo9kpVgnsumKVt7NbzWpxw8tNqgL/R6di84EvyRHu1u0DhYkLgopFflf1Mr5r9kUkEgLLxTDBZzMFaD4uUNQ==",
   "success": true,
   "projectFilePath": "/home/dalmas/desenv/prjslnback-paulo-junior/prjslnback-paulo-junior.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,8 @@
     "/home/dalmas/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/home/dalmas/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/dalmas/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "/home/dalmas/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/home/dalmas/.nuget/packages/nunit/3.13.2/nunit.3.13.2.nupkg.sha512",
     "/home/dalmas/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/dalmas/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/dalmas/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

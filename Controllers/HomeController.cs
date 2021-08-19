@@ -28,7 +28,8 @@ namespace prjslnback_paulo_junior.Controllers
             return new
             {
                 user = user,
-                token = token
+                token = token,
+                tokenExpires = DateTime.UtcNow.AddMinutes(5)
             };
         }
 
@@ -37,7 +38,7 @@ namespace prjslnback_paulo_junior.Controllers
         [Authorize]
         public async Task<ActionResult<dynamic>> ValidatePassword([FromBody]Password model)
         {
-            return PasswordService.ValidadePassword(model.Pass) ? "Valid Password" : "Invalid Password";
+            return PasswordService.ValidatePassword(model.Pass) ? "Valid Password" : "Invalid Password";
         }
 
         [HttpGet]
